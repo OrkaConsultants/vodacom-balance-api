@@ -57,7 +57,7 @@ vodacom-api:
 1. Run the application.
 2. The application will start up on http://localhost:8080.
 3. Your login details specified in `vodacom-api.yml` will be used to receive an API token to get the balances.
-4. Open your favorite API Development program, like Postman.
+4. Open your favourite API Development program, like Postman.
 5. Perform an HTTP GET request to http://localhost:8080/api/balance?number=278200LEGGEH (The number specified here must start with 27 (2782... and NOT 082) and it must be linked to your account)
 6. A list of services will be returned in the following format:
 
