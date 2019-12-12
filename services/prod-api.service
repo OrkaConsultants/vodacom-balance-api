@@ -1,0 +1,16 @@
+[Unit]
+Description=Production API service
+
+[Service]
+User=micro-manage
+Group=micro-manage
+WorkingDirectory=/home/micro-manage/production-api-service
+ExecStart=/home/micro-manage/production-api-service/vodacom-api
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=micro-manage
+
+[Install]
+WantedBy=multi-user.target

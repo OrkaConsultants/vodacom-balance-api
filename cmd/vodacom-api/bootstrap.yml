@@ -1,0 +1,16 @@
+# IGNORE THIS IF YOU DO NOT INTENT TO RUN THIS AS A MICROSERVICE
+eureka: # Spring Boot Eureka
+  url: https://localhost
+  port: 8761
+  enabled: false
+
+app:
+  name: vodacom-api
+  port: 8080
+  authentication: false # JWT Authentication for this application
+
+# IGNORE THIS IF YOU DO NOT INTENT TO RUN THIS AS A MICROSERVICE
+cloud-config: # Spring cloud condig
+  enabled: false
+  profile: demo
+  service-name: config-service # Config service name

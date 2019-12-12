@@ -1,0 +1,7 @@
+__debug_bin
+
+# Don't include all of the dependencies
+vendor
+
+cmd/vodacom-api/vodacom-api
+cmd/vodacom-api/vodacom-api.exe

@@ -1,0 +1,9 @@
+jwt-config:
+  TOKEN_PREFIX: Bearer
+  HEADER_STRING: Authorization
+
+vodacom-api:
+  username: fake@mail.com
+  password: leggehPassword
+  login-uri: https://myvodacom.secure.vodacom.co.za/cloud/login/v3/login
+  balance-uri: https://www.vodacom.co.za/cloud/rest/balances/v2/bundleBalances/{number}
